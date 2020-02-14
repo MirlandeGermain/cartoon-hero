@@ -1,0 +1,91 @@
+/*Mirlande Germain css style sheet*/
+
+
+/*Charlie Brown cssStyleSheet*/
+
+/*body elements*/
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+header {
+	background-color:#FF9800;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+
+h1, h2 {
+	font-family: 'Amatic SC', cursive;
+}
+
+/*Header's Elements h1 - h2 */
+header h1 {
+	color: black;
+	font-size: 50px;
+
+}
+
+header img {
+	border-radius: 170px;
+	width:300px;
+	border: 10px solid white;
+}
+/*Main Elements*/
+main{
+	max-width: 800px;
+	margin:0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+/* H2 and a's elements*/
+h2{
+	font-size: 30px; 
+	color: #0F4FDF;
+	margin:40px 0 10px;
+} 
+
+a{
+	color: #0F4FDF;
+}
+
+a:hover{
+	color: #DF200F;
+	background-color: #FFCDC9; 
+}
+
+/*Footer Elements*/
+
+footer{
+	background-color:#FF9800;
+	text-align:center;
+	color:black;
+	padding: 50px;
+}
+
+footer p{
+	margin:0;
+}
+
+footer a{
+	color: #0F4FDF;
+}
+
+footer a :hover{
+	color: #DF200F;
+	opacity: .5;
+	background-color: #FFCDC9;
+}
+
+p.caption{
+	color:#9999;
+	font-style:italic;
+	margin-top:0;
+}
